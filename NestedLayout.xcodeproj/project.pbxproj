@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3F0CA7EA1FD607E100973094 /* FixedSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CA7E91FD607E100973094 /* FixedSizeView.swift */; };
-		3F19D0B31FD06FF100D31913 /* NestedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F19D0B11FD06FF100D31913 /* NestedLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F19D0BE1FD073DB00D31913 /* FillUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19D0BD1FD073DB00D31913 /* FillUIView.swift */; };
 		3F19D0CA1FD073F500D31913 /* HorizontalCenterAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19D0C11FD073F500D31913 /* HorizontalCenterAlignmentView.swift */; };
 		3F19D0CB1FD073F500D31913 /* HorizontalLeftAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19D0C21FD073F500D31913 /* HorizontalLeftAlignmentView.swift */; };
@@ -23,9 +22,9 @@
 		3F19D0D81FD0740700D31913 /* BinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19D0D41FD0740700D31913 /* BinView.swift */; };
 		3F19D0D91FD0740700D31913 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19D0D51FD0740700D31913 /* VerticalStackView.swift */; };
 		3F19D0DA1FD0740700D31913 /* HorizontalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19D0D61FD0740700D31913 /* HorizontalStackView.swift */; };
-		3F2468131FE01AD100E3C86B /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2468121FE01AD100E3C86B /* Button.swift */; };
-		3F4934DD1FE090FF00EC0478 /* ControlCallbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4934DC1FE090FE00EC0478 /* ControlCallbacks.swift */; };
-		3FDB814D1FD6DFFD00E2EF57 /* FocusingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB814C1FD6DFFD00E2EF57 /* FocusingView.swift */; };
+		3F21D8262035E9B600EEA9AC /* RotationCWView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D8252035E9B600EEA9AC /* RotationCWView.swift */; };
+		3F21D8282035EA1400EEA9AC /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D8272035EA1400EEA9AC /* SpacerView.swift */; };
+		3F21D8592036048F00EEA9AC /* RotationCCWView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21D8582036048F00EEA9AC /* RotationCCWView.swift */; };
 		3FDB814F1FD6E01E00E2EF57 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB814E1FD6E01D00E2EF57 /* ScrollView.swift */; };
 		3FDB81511FD7066900E2EF57 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB81501FD7066900E2EF57 /* ContainerView.swift */; };
 		3FDB81531FD7077D00E2EF57 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB81521FD7077D00E2EF57 /* SquareView.swift */; };
@@ -34,7 +33,6 @@
 /* Begin PBXFileReference section */
 		3F0CA7E91FD607E100973094 /* FixedSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSizeView.swift; sourceTree = "<group>"; };
 		3F19D0AE1FD06FF100D31913 /* NestedLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NestedLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F19D0B11FD06FF100D31913 /* NestedLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestedLayout.h; sourceTree = "<group>"; };
 		3F19D0B21FD06FF100D31913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F19D0BD1FD073DB00D31913 /* FillUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillUIView.swift; sourceTree = "<group>"; };
 		3F19D0C11FD073F500D31913 /* HorizontalCenterAlignmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalCenterAlignmentView.swift; sourceTree = "<group>"; };
@@ -50,9 +48,9 @@
 		3F19D0D41FD0740700D31913 /* BinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinView.swift; sourceTree = "<group>"; };
 		3F19D0D51FD0740700D31913 /* VerticalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
 		3F19D0D61FD0740700D31913 /* HorizontalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalStackView.swift; sourceTree = "<group>"; };
-		3F2468121FE01AD100E3C86B /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
-		3F4934DC1FE090FE00EC0478 /* ControlCallbacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlCallbacks.swift; sourceTree = "<group>"; };
-		3FDB814C1FD6DFFD00E2EF57 /* FocusingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusingView.swift; sourceTree = "<group>"; };
+		3F21D8252035E9B600EEA9AC /* RotationCWView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationCWView.swift; sourceTree = "<group>"; };
+		3F21D8272035EA1400EEA9AC /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		3F21D8582036048F00EEA9AC /* RotationCCWView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationCCWView.swift; sourceTree = "<group>"; };
 		3FDB814E1FD6E01D00E2EF57 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
 		3FDB81501FD7066900E2EF57 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		3FDB81521FD7077D00E2EF57 /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
@@ -76,10 +74,10 @@
 				3F19D0C91FD073F500D31913 /* SafeAreaView.swift */,
 				3F19D0C81FD073F500D31913 /* PaddingView.swift */,
 				3F0CA7E91FD607E100973094 /* FixedSizeView.swift */,
-				3F0CA7DE1FD5A87900973094 /* AlignmentViews */,
-				3FDB814C1FD6DFFD00E2EF57 /* FocusingView.swift */,
 				3FDB814E1FD6E01D00E2EF57 /* ScrollView.swift */,
 				3FDB81521FD7077D00E2EF57 /* SquareView.swift */,
+				3F0CA7DE1FD5A87900973094 /* AlignmentViews */,
+				3F21D8572036045400EEA9AC /* RotationViews */,
 			);
 			path = SlotViews;
 			sourceTree = "<group>";
@@ -96,8 +94,8 @@
 		3F0CA7DE1FD5A87900973094 /* AlignmentViews */ = {
 			isa = PBXGroup;
 			children = (
-				3F19D0C11FD073F500D31913 /* HorizontalCenterAlignmentView.swift */,
 				3F19D0C21FD073F500D31913 /* HorizontalLeftAlignmentView.swift */,
+				3F19D0C11FD073F500D31913 /* HorizontalCenterAlignmentView.swift */,
 				3F19D0C31FD073F500D31913 /* HorizontalRightAlignmentView.swift */,
 				3F19D0C41FD073F500D31913 /* VerticalBottomAlignmentView.swift */,
 				3F19D0C61FD073F500D31913 /* VerticalCenterAlignmentView.swift */,
@@ -136,15 +134,22 @@
 			isa = PBXGroup;
 			children = (
 				3F19D0BD1FD073DB00D31913 /* FillUIView.swift */,
-				3F19D0B11FD06FF100D31913 /* NestedLayout.h */,
 				3F19D0B21FD06FF100D31913 /* Info.plist */,
+				3F21D8272035EA1400EEA9AC /* SpacerView.swift */,
 				3FDB81501FD7066900E2EF57 /* ContainerView.swift */,
 				3F0CA7DB1FD5A6B500973094 /* BinViews */,
 				3F0CA7DA1FD5A46A00973094 /* SlotViews */,
-				3F4934DC1FE090FE00EC0478 /* ControlCallbacks.swift */,
-				3F2468121FE01AD100E3C86B /* Button.swift */,
 			);
 			path = NestedLayout;
+			sourceTree = "<group>";
+		};
+		3F21D8572036045400EEA9AC /* RotationViews */ = {
+			isa = PBXGroup;
+			children = (
+				3F21D8252035E9B600EEA9AC /* RotationCWView.swift */,
+				3F21D8582036048F00EEA9AC /* RotationCCWView.swift */,
+			);
+			path = RotationViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +159,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F19D0B31FD06FF100D31913 /* NestedLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,23 +233,23 @@
 			files = (
 				3F19D0D81FD0740700D31913 /* BinView.swift in Sources */,
 				3F19D0CE1FD073F500D31913 /* SlotView.swift in Sources */,
-				3FDB814D1FD6DFFD00E2EF57 /* FocusingView.swift in Sources */,
 				3F19D0D71FD0740700D31913 /* DepthStackView.swift in Sources */,
 				3F19D0CA1FD073F500D31913 /* HorizontalCenterAlignmentView.swift in Sources */,
 				3FDB81531FD7077D00E2EF57 /* SquareView.swift in Sources */,
-				3F2468131FE01AD100E3C86B /* Button.swift in Sources */,
 				3F19D0D01FD073F500D31913 /* VerticalTopAlignmentView.swift in Sources */,
+				3F21D8592036048F00EEA9AC /* RotationCCWView.swift in Sources */,
 				3F19D0D21FD073F500D31913 /* SafeAreaView.swift in Sources */,
 				3FDB814F1FD6E01E00E2EF57 /* ScrollView.swift in Sources */,
+				3F21D8282035EA1400EEA9AC /* SpacerView.swift in Sources */,
 				3F19D0CB1FD073F500D31913 /* HorizontalLeftAlignmentView.swift in Sources */,
 				3F19D0CF1FD073F500D31913 /* VerticalCenterAlignmentView.swift in Sources */,
 				3F19D0CC1FD073F500D31913 /* HorizontalRightAlignmentView.swift in Sources */,
-				3F4934DD1FE090FF00EC0478 /* ControlCallbacks.swift in Sources */,
 				3F0CA7EA1FD607E100973094 /* FixedSizeView.swift in Sources */,
 				3F19D0DA1FD0740700D31913 /* HorizontalStackView.swift in Sources */,
 				3FDB81511FD7066900E2EF57 /* ContainerView.swift in Sources */,
 				3F19D0BE1FD073DB00D31913 /* FillUIView.swift in Sources */,
 				3F19D0D11FD073F500D31913 /* PaddingView.swift in Sources */,
+				3F21D8262035E9B600EEA9AC /* RotationCWView.swift in Sources */,
 				3F19D0CD1FD073F500D31913 /* VerticalBottomAlignmentView.swift in Sources */,
 				3F19D0D91FD0740700D31913 /* VerticalStackView.swift in Sources */,
 			);
